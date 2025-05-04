@@ -31,7 +31,7 @@
 ### Prerequisites (only needed for local development)
 
 1. Install [Ollama](https://ollama.ai/download)
-2. Install [Node.js](https://nodejs.org/) (v16+) and [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)
+2. Install [Node.js](https://nodejs.org/) (v23+) and pnpm
 
 ### Local Development
 
@@ -43,8 +43,8 @@ ollama serve
 # Clone and run the GUI
 git clone https://github.com/HelgeSverre/ollama-gui.git
 cd ollama-gui
-yarn install
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 ### Using the Hosted Version
